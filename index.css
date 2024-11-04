@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+} 
+
+#heading{
+    background-color: #6943FF;
+    width: 550px;
+    height: 285px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1px;
+    font-family: "Inter", sans-serif;
+    color: #fff;
+    padding-top: 15px;
+}
+
+#heading div{
+    border: 2px solid #B295FF;
+    width: 117px;
+    height: 83px;
+    margin: 35px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 58;
+    font-weight: 800;
+    border-radius: 5px;
+}
+
+button{
+    color: #3D3D3D;
+    background-color: #fff;
+    width: 117px;
+    height: 42px;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+}
+
+#conversions{
+    background-color: #1F2937;
+    width: 550px;
+    height: 360px;
+    margin: 0 auto 15px;
+    margin-top: -19px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+#conversions div{
+    background-color: #273549;
+    width: 500px;
+    height: 108px;
+    margin: 0 auto 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+input[type='number']{
+    border: none;
+    width: inherit;
+    height: inherit;
+    outline: none;
+    background-color: inherit;
+    appearance: none;
+    font-size: 58;
+    font-weight: 800;
+    color: white;
+    margin-left: 30px;
+    margin-right: auto;
+
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.title{
+    color: #CCC1FF;
+    margin-bottom: 0;
+}
+.details{
+    color: white;
+    font-size: 14px;
+}
